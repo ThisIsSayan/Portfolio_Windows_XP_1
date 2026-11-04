@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jordan Lee – Software Engineer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- BOOT -->
+    <div id="boot">
+      <div class="logo">Microsoft<small>®</small><br />Windows <b>xp</b></div>
+      <div class="bar"><i></i></div>
+    </div>
+
+    <!-- LOGIN -->
+    <div id="login" class="hide">
+      <div class="top"></div>
+      <div class="mid">
+        <div class="left">
+          <div class="logo">Windows <b>xp</b></div>
+          <p>To begin, click your user name</p>
+        </div>
+        <div class="sep"></div>
+        <button class="user" id="userBtn">
+          <div class="avatar">👨‍💻</div>
+          <div><b id="lgName"></b><span id="lgRole"></span></div>
+        </button>
+      </div>
+      <div class="bot">
+        <span>After you log on, you can explore my work.</span
+        ><span>Turn off computer</span>
+      </div>
+    </div>
+
+    <!-- DESKTOP -->
+    <div id="desktop" class="hide"><div id="icons"></div></div>
+    <div id="tb" class="hide">
+      <button id="start">❖ start</button>
+      <div id="tasks"></div>
+      <div id="tray">
+        <span class="nt" title="Network: Connected">🖧</span
+        ><button id="vol" title="Volume">🔊</button><span id="clock"></span>
+      </div>
+    </div>
+    <div id="sm" class="hide">
+      <div class="h">
+        <div class="avatar" style="font-size: 22px">👨‍💻</div>
+        <span id="smName"></span>
+      </div>
+      <div class="c">
+        <div class="l" id="smL"></div>
+        <div class="r" id="smR"></div>
+      </div>
+      <div class="f">
+        <button id="logoff">🔑 Log Off</button
+        ><button id="off">⏻ Turn Off Computer</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
